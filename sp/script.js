@@ -134,7 +134,7 @@ function roll(){
 function boxNumbers(){
     let boxes = document.querySelectorAll('.box')
     boxes.forEach((box,i)=>{
-        if(String(i).length == 1 || (String(i).length == 2 && Number(String(i)[0]))%2==0){
+        if(i <= 10){
             box.innerHTML = 100-i
         }
         else{
