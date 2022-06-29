@@ -17,11 +17,11 @@ body{
 
 .box{
     float: left;
-    height: 9.601vmin;
-    width: 9.601vmin;
+    height: 9vmin;
+    width: 9vmin;
     border: 0.1vmin solid black;
     text-align: center;
-    line-height: 9.601vmin;
+    line-height: 9vmin;
     font-size: 2.5vmin;
     background-color: lightgreen;
 }
